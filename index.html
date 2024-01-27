@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    *{
+        margin:0px;
+        padding: 0px;
+    }
+    body{
+        margin:0px;
+        padding: 0px;
+        background-color: rgba(0, 0, 0, 0.404);
+        background-image: url(imagens/fundo-madeira.jpg);
+        background-position: center bottom;
+        height: 100vh;
+        
+    }
+
+    header{
+
+    }
+
+    nav{
+        display: flex;
+        align-items: ;
+        justify-content: center;
+        
+        
+        
+    }
+
+    ul{
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    li{
+        list-style-type: none;
+        color: white;
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
+    img.logo{
+        margin-right: 20px;
+        width: 70px;
+        border-radius: 20px;
+    }
+
+    .logo:hover{
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.473) ;
+        cursor: pointer;
+        background-color: rgb(137, 43, 226);
+        padding: 5px;
+        
+        transition-duration: 0.5s;
+    }
+    /* fim do header */
+
+
+
+
+    main{
+        height: 100vh;
+        
+        
+    }
+
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    section#phone{
+        margin: auto;
+        
+        
+        align-items: center;
+        justify-content: center;
+        height: 627px;
+        width: 311px;
+        
+        background-image: url(imagens/frame-iphone.png);
+        
+    }
+
+    section#phone iframe{
+        
+        height: 468px;
+        width: 268px;
+        
+    }
+
+    
+
+
+</style>
+<body>
+
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="home.html" target="tela"><img src="imagens/logo-home.jpg" alt="" class="logo"></a></li>
+
+                    <li><a href="youtube.html" target="tela"><img src="imagens/logo-youtube.jpg" alt="" class="logo"></a></li>
+
+                    <li><a href="github.html" target="tela"><img src="imagens/logo-github.jpg" alt="" class="logo"></a></li>
+
+                    <li><a href="instagram.html" target="tela"><img src="imagens/logo-instagram.jpg" alt="" class="logo"></a></li>
+
+                    <li><a href="twitter.html" target="tela"><img src="imagens/logo-twitter.jpg" alt="" class="logo"></a></li>
+                    
+                    <li><a href="facebook.html" target="tela"><img src="imagens/logo-facebook.jpg" alt="" class="logo"></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="phone">
+            
+            
+            <iframe src="home.html" frameborder="" name="tela"></iframe>
+
+        </section>
+    </main>
+    
+</body>
+</html>
